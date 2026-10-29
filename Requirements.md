@@ -1,0 +1,4 @@
+- 3 onboard brushed esc's
+- 2 pwm uitgangen for esc or servo
+- selection between onboard or external antenna with solderpads
+- polarity protection
