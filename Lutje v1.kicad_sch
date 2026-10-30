@@ -12420,7 +12420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3S3FN8"
+		(property "Value" "ESP32-S3FN8"
 			(at 239.6333 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
