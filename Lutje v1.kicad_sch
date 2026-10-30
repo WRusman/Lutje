@@ -8981,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" ".local:SMD1612_crystal"
 			(at 34.29 158.75 0)
 			(hide yes)
 			(show_name no)
