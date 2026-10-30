@@ -8494,7 +8494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 387.35 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10134,7 +10134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" ".local:2450FM07D0034001T"
 			(at 323.85 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10447,7 +10447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 177.8 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10686,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 44.45 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11339,7 +11339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 355.6 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -11584,7 +11584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 319.7352 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14435,7 +14435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint  0 0 Center Center 0 0"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 387.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16026,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 237.49 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16074,6 +16074,17 @@
 			(at 237.49 229.87 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C3034316"
+			(at 237.49 214.63 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
