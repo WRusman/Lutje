@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -658,17 +658,17 @@
     "top_level_sheets": [
       {
         "filename": "Lutje v1.kicad_sch",
-        "name": "Lutje",
+        "name": "Root",
         "uuid": "551bd2b2-0824-4dce-8de9-8088cd1e33df"
       }
     ],
-    "used_designators": "#PWR17-29,AE1,C10-25,D1-2,L1-4,Q1,R1-8,SW1,Y2",
+    "used_designators": "D3,#PWR27-28,#PWR30",
     "variants": []
   },
   "sheets": [
     [
       "551bd2b2-0824-4dce-8de9-8088cd1e33df",
-      "Lutje"
+      "Root"
     ]
   ],
   "text_variables": {},
