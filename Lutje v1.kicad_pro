@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|172455000|79565000|512edcfd-e411-4528-8c6a-d9a925cf4f81|e094a946-e6b3-44d3-ad3b-65cd66913cdc",
+          "programeerclip is hier normaal niet"
+        ],
+        [
+          "courtyards_overlap|172940000|101135000|0a7fe8a8-01a2-42c1-8009-bc3ea4c95d3b|0e065537-27fb-4b78-b549-1f188d6d68bf",
+          "genoeg ruimte om te handsolderen"
+        ],
+        [
+          "courtyards_overlap|181545000|80645000|32a2771e-0efa-454e-a7a0-2517656ee28a|e094a946-e6b3-44d3-ad3b-65cd66913cdc",
+          "tja"
+        ],
+        [
+          "courtyards_overlap|184835000|101135000|5aada362-87c7-469e-95d1-4b6b3089400a|c3b5ff08-026b-4274-a1be-d2009c733583",
+          "genoeg ruimte om te handsolderen"
+        ],
+        [
+          "items_not_allowed|172500000|80195000|eba9fc5e-cf5d-451c-9e5b-d327479d4e46|00000000-0000-0000-0000-000000000000",
+          "dit veranderd de impedantie van de antenne met een heel klein beetje (eps = 1 ipv 4.6)"
+        ],
+        [
+          "npth_inside_courtyard|172500000|80195000|eba9fc5e-cf5d-451c-9e5b-d327479d4e46|e094a946-e6b3-44d3-ad3b-65cd66913cdc",
+          "dit veranderd de impedantie van de antenne een beetje"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -120,9 +145,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -148,9 +173,9 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.225,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -509,7 +534,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -536,7 +561,16 @@
       "VDC": "rgb(255, 143, 22)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "\\u0tx"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/u0tx"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -679,7 +713,7 @@
         "uuid": "551bd2b2-0824-4dce-8de9-8088cd1e33df"
       }
     ],
-    "used_designators": "U4,Q1-3,D3,D6-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
