@@ -92,14 +92,6 @@
         [
           "courtyards_overlap|184835000|101135000|5aada362-87c7-469e-95d1-4b6b3089400a|c3b5ff08-026b-4274-a1be-d2009c733583",
           "genoeg ruimte om te handsolderen"
-        ],
-        [
-          "items_not_allowed|172500000|80195000|eba9fc5e-cf5d-451c-9e5b-d327479d4e46|00000000-0000-0000-0000-000000000000",
-          "dit veranderd de impedantie van de antenne met een heel klein beetje (eps = 1 ipv 4.6)"
-        ],
-        [
-          "npth_inside_courtyard|172500000|80195000|eba9fc5e-cf5d-451c-9e5b-d327479d4e46|e094a946-e6b3-44d3-ad3b-65cd66913cdc",
-          "dit veranderd de impedantie van de antenne een beetje"
         ]
       ],
       "meta": {
