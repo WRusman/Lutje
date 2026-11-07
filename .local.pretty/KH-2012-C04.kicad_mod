@@ -7,7 +7,7 @@
 		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ce04147e-a742-436a-b48e-8ce8131c5c2b")
+		(uuid "4fd574bf-1950-4fa1-8aaa-1444013be051")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "74a7eebe-19b9-4934-a247-3c6865e6b1e6")
+		(uuid "81e29c68-afb4-4759-8151-4dfa54b6995c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a30a588-6418-4e2b-956b-3a01b8bb6e3e")
+		(uuid "b51eb9df-41bc-4c06-a8aa-17a286c1f355")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79861d5a-11d9-4dca-8633-9b32645e06ef")
+		(uuid "4fbb0085-bf34-44c5-866d-cba18808c730")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +54,8 @@
 		)
 	)
 	(attr smd)
-	(net_tie_pad_groups "1,2,X")
+	(net_tie_pad_groups "1,2")
 	(duplicate_pad_numbers_are_jumpers no)
-	(jumper_pad_groups
-		("1")
-	)
 	(fp_rect
 		(start -4.499999 -1.5)
 		(end -3.149999 -1)
@@ -68,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "22497246-46c7-4abc-99dc-8b022715c4b2")
+		(uuid "4a18e622-230e-4503-99ec-cfbbef9cdbea")
 	)
 	(fp_rect
 		(start -4.499999 -0.6)
@@ -79,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "96e6cb8e-0cf2-4d02-889b-85cf029b0c1a")
+		(uuid "01a66d92-bd4f-423f-a26c-c088cab2a25f")
 	)
 	(fp_rect
 		(start -3.149999 -1.5)
@@ -90,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "18ecceac-8868-429d-b024-1e6cfabf9d96")
+		(uuid "c48ecaeb-a9e1-4417-968a-00ba8a3a5280")
 	)
 	(fp_rect
 		(start 0.55 -1.5)
@@ -101,7 +98,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "fd3afe7c-e43b-4444-823f-0fe55c9be9f7")
+		(uuid "803aae43-bb62-4120-8b8a-041dad4390f6")
 	)
 	(fp_rect
 		(start 1.45 -1.5)
@@ -112,7 +109,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "d5722e3a-3a65-48f2-91df-e34ab722f637")
+		(uuid "d9e4bb3b-6b45-43d0-ac28-9b974fbab828")
 	)
 	(fp_rect
 		(start 2.84 -0.78)
@@ -123,7 +120,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "37c14136-d56f-4b62-be30-2c675dddb849")
+		(uuid "e76c3e91-5d86-4a6c-af46-f73027c20a7d")
 	)
 	(fp_rect
 		(start 2.84 0.845)
@@ -134,13 +131,13 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "79eafcf1-9896-4a10-99d2-ee73db87719d")
+		(uuid "0be6857c-b807-45d0-89a1-ada77ee3507f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3c2a7b8e-719c-4509-afc8-177195c39262")
+		(uuid "39f364c5-3a41-499d-ad80-321dc7a9460c")
 		(effects
 			(font
 				(size 1 1)
@@ -152,31 +149,43 @@
 		(at -4.25 -0.35)
 		(size 0.5 0.5)
 		(layers "F.Cu")
-		(uuid "4ac81038-e976-4ede-9128-8d5b787efb2c")
+		(uuid "4f8f2766-3c1d-4ca4-9c95-b293463e5604")
 	)
-	(pad "1" smd trapezoid
+	(pad "2" smd trapezoid
+		(at -4.25 -1.25)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(uuid "0aab3242-71b4-4453-8b73-ef9d7c03a54d")
+	)
+	(pad "2" smd trapezoid
+		(at 3.14 0.57)
+		(size 0.6 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d384f83-ccf9-422b-98d2-4c03249c8e29")
+	)
+	(pad "2" smd trapezoid
+		(at 3.750412 -1.143873)
+		(size 0.5 0.715)
+		(layers "F.Cu")
+		(uuid "6c9cbb45-72b9-40df-9f71-b78b18edc2c9")
+	)
+	(pad "X" smd trapezoid
 		(at -0.8 -0.8)
 		(size 0.5 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3c4f2430-6ae0-4f29-975f-e9c8308c3a8a")
+		(uuid "915d59f3-728d-426c-8d2a-f7fe54852acf")
 	)
-	(pad "2" smd trapezoid
+	(pad "X" smd trapezoid
 		(at 0.8 -0.8)
 		(size 0.5 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0fa5a025-c5f2-4e1c-9061-53f8e6d792e8")
+		(uuid "2f703dc6-6481-4adc-9eb7-eb88d4e249b8")
 	)
 	(pad "X" smd trapezoid
 		(at 3.136976 -0.375759)
 		(size 0.6 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5bc58db3-ed5b-4feb-a760-55910ecaf517")
-	)
-	(pad "X" smd trapezoid
-		(at 3.14 0.57)
-		(size 0.6 0.55)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0996846e-c10d-4fc8-8eed-580576b142af")
+		(uuid "7f1d56da-5e59-426b-ae8f-20a0d63bf68e")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -185,7 +194,7 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "2f7f80da-b89b-4340-ba46-5c2e68f157b5")
+		(uuid "67a2cb23-9c9b-4c29-a61a-5420171d9ee5")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
