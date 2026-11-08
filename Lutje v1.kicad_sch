@@ -561,269 +561,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DRV8212P:DRV8212PDSGR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4183,6 +3920,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 124.46) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0255be6f-d631-4a01-a0e6-30636774ce7e")
+	)
+	(wire
+		(pts
 			(xy 293.37 50.8) (xy 295.91 50.8)
 		)
 		(stroke
@@ -4403,6 +4150,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304cf26b-cc6e-488d-af9d-bf1fd418e024")
+	)
+	(wire
+		(pts
 			(xy 321.31 115.57) (xy 334.01 115.57)
 		)
 		(stroke
@@ -4430,6 +4187,16 @@
 			(type default)
 		)
 		(uuid "3318777c-9a8a-41c1-a632-ba044447a9a8")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358d4de8-ab55-4b3f-a5df-e85e6cd864da")
 	)
 	(wire
 		(pts
@@ -4773,16 +4540,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 124.46) (xy 95.25 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d953764-7e33-4f2e-b547-8f1ae4bc68c6")
-	)
-	(wire
-		(pts
 			(xy 293.37 78.74) (xy 300.99 78.74)
 		)
 		(stroke
@@ -5000,16 +4757,6 @@
 			(type default)
 		)
 		(uuid "8314cd3d-ce04-4c2f-bf54-9c391bd90e3d")
-	)
-	(wire
-		(pts
-			(xy 87.63 111.76) (xy 95.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838bc63d-b159-469a-92a5-735616cac0d3")
 	)
 	(wire
 		(pts
@@ -5363,7 +5110,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 72.39 106.68)
+			(xy 66.04 106.68) (xy 67.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5473,7 +5220,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 95.25 106.68)
+			(xy 74.93 106.68) (xy 95.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5763,16 +5510,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 121.92) (xy 95.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee623f7-17f6-4ea7-8f2e-91f952b9ed91")
-	)
-	(wire
-		(pts
 			(xy 92.71 209.55) (xy 99.06 209.55)
 		)
 		(stroke
@@ -5902,7 +5639,7 @@
 		(uuid "fd6ce769-67f4-4b41-a3d9-34ac9802416e")
 	)
 	(label "URXD"
-		(at 81.28 124.46 0)
+		(at 80.01 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6052,7 +5789,7 @@
 		(uuid "59fbf9a2-3c8f-4349-a5bd-07ba1e1416e1")
 	)
 	(label "BOOT"
-		(at 81.28 109.22 0)
+		(at 80.01 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6092,7 +5829,7 @@
 		(uuid "79350c6d-4857-4fcd-b37f-05412334b648")
 	)
 	(label "H1_IN1"
-		(at 87.63 111.76 0)
+		(at 87.63 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6102,7 +5839,7 @@
 		(uuid "7980ff30-3020-48c0-9bb0-e1b6aac87e50")
 	)
 	(label "UTXD"
-		(at 81.28 121.92 0)
+		(at 80.01 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6262,7 +5999,7 @@
 		(uuid "f2a727b3-2716-42e9-a5a1-ff208c455441")
 	)
 	(label "H1_IN2"
-		(at 87.63 124.46 0)
+		(at 87.63 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6536,6 +6273,82 @@
 			(project "Lutje v1"
 				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 288.29 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06c06704-e196-4bdd-9ef8-a39f4822f2eb")
+		(property "Reference" "J1"
+			(at 288.925 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 279.908 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 288.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 288.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4705cf43-3abe-40ae-9c68-1149893aeb60")
+		)
+		(instances
+			(project "Lutje v1"
+				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7252,7 +7065,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 106.68 0)
+		(at 66.04 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7263,7 +7076,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d4ffc52-9c10-4dca-ba47-ded7189e6d91")
 		(property "Reference" "#PWR023"
-			(at 71.12 110.49 0)
+			(at 66.04 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7274,7 +7087,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 71.12 101.6 0)
+			(at 66.04 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7284,7 +7097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 106.68 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7295,7 +7108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 106.68 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,7 +7119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 106.68 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7739,92 +7552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 288.29 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40ecdd47-52dc-4d03-af03-7f77ce412d03")
-		(property "Reference" "J1"
-			(at 288.925 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 288.925 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 288.29 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 288.29 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb2e9ee7-fcea-4b8d-84da-eefc424379b8")
-		)
-		(pin "4"
-			(uuid "e49c97ea-c6a9-4b1a-947e-76b879dd8166")
-		)
-		(pin "1"
-			(uuid "6908b178-a50f-4700-87dc-ad0fff4e12b6")
-		)
-		(pin "3"
-			(uuid "bea5e161-4205-46fc-9f8d-cb3c7cd8b525")
-		)
-		(instances
-			(project "Lutje v1"
-				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 78.74 0)
 		(unit 1)
@@ -8194,7 +7921,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 106.68 90)
+		(at 71.12 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8205,7 +7932,7 @@
 		(fields_autoplaced yes)
 		(uuid "56d153f9-3d69-4428-9e35-370d9eb980cb")
 		(property "Reference" "R3"
-			(at 76.2 100.33 90)
+			(at 71.12 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8215,7 +7942,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 76.2 102.87 90)
+			(at 71.12 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8225,7 +7952,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 76.2 108.458 90)
+			(at 71.12 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +7963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 106.68 0)
+			(at 71.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +7974,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 106.68 0)
+			(at 71.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8679,6 +8406,82 @@
 			(project "Lutje v1"
 				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 288.29 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "753d85c2-34c6-49f1-9bac-e63ab0f95604")
+		(property "Reference" "J11"
+			(at 288.925 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 279.654 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 288.29 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 288.29 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36cfb47f-bc82-4025-9a11-d665d3afd877")
+		)
+		(instances
+			(project "Lutje v1"
+				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -12346,6 +12149,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 288.29 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e24a7843-09ef-4e50-a33a-dc58773bd940")
+		(property "Reference" "J9"
+			(at 288.925 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 279.4 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 288.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 288.29 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4ac4223-2cae-4e8d-bfe8-2beceab03919")
+		)
+		(instances
+			(project "Lutje v1"
+				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 285.75 119.38 0)
 		(unit 1)
@@ -12616,6 +12495,82 @@
 			(project "Lutje v1"
 				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 288.29 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8db7180-fbfa-4197-806b-40091129162a")
+		(property "Reference" "J12"
+			(at 288.925 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 279.908 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 288.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 288.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "260d529e-2fd5-4e65-a329-d6a55ad5d9ab")
+		)
+		(instances
+			(project "Lutje v1"
+				(path "/551bd2b2-0824-4dce-8de9-8088cd1e33df"
+					(reference "J12")
 					(unit 1)
 				)
 			)
