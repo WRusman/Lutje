@@ -4150,16 +4150,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 121.92) (xy 95.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304cf26b-cc6e-488d-af9d-bf1fd418e024")
-	)
-	(wire
-		(pts
 			(xy 321.31 115.57) (xy 334.01 115.57)
 		)
 		(stroke
@@ -4260,6 +4250,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3984b4e2-a817-42b6-a0f0-136745d02bcc")
+	)
+	(wire
+		(pts
 			(xy 92.71 201.93) (xy 99.06 201.93)
 		)
 		(stroke
@@ -4297,16 +4297,6 @@
 			(type default)
 		)
 		(uuid "3c3d91ea-7f7e-41c7-9843-53c69ce72097")
-	)
-	(wire
-		(pts
-			(xy 54.61 109.22) (xy 95.25 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1cd387-6081-43ab-9b48-a8a17b2b484b")
 	)
 	(wire
 		(pts
@@ -4377,6 +4367,16 @@
 			(type default)
 		)
 		(uuid "44ef6d46-5e1b-474f-bf18-b5579b9ae428")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a78ba9-b777-41da-97db-8bdffdfd82f8")
 	)
 	(wire
 		(pts
@@ -5729,7 +5729,7 @@
 		(uuid "347495e7-d7b8-4c9e-8ca4-7561c5f5eff7")
 	)
 	(label "PWM1"
-		(at 87.63 109.22 0)
+		(at 87.63 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5879,7 +5879,7 @@
 		(uuid "9f097aea-504a-4ef5-a2a5-ada0f893b5aa")
 	)
 	(label "NRESET"
-		(at 87.63 121.92 0)
+		(at 87.63 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
