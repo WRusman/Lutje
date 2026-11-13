@@ -7,7 +7,7 @@
 		(at 0 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d0567794-87e5-409c-b2bf-e755c90e6b2d")
+		(uuid "a97c45b7-22a3-4e8b-8349-580c1f97d463")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "843c114d-a95d-4bbe-aae2-e972fed5931e")
+		(uuid "82e9b49c-4035-42e1-854e-f7d05c40952f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16202065-216d-40fd-ba7f-46667c560ba6")
+		(uuid "95f0f07c-760f-4675-b59c-25e73cd4b1f6")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "91cd5012-e699-4f84-a66a-1bf805bf9702")
+		(uuid "7c3a32d8-f533-4567-867b-add346dd88f4")
 		(effects
 			(font
 				(size 1 1)
@@ -56,55 +56,11 @@
 	(attr smd)
 	(net_tie_pad_groups "1,2")
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -4 -1.2)
-		(end -3 -0.7)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "00345317-8246-4afa-a4b5-2468e40ec1e0")
-	)
-	(fp_rect
-		(start -4 -0.3)
-		(end -3 0.2)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "192833f2-80a9-4e4d-b2a6-cd99061556c7")
-	)
-	(fp_rect
-		(start -2.999999 -1.2)
-		(end -1.05 0.2)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "0cff3e09-7171-4331-928e-485d2522871c")
-	)
-	(fp_rect
-		(start 2.25 -1.2)
-		(end 4 -0.5)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "e61c7fdf-c101-4bc5-831a-511c99619df5")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "dc60f524-b7f9-4e46-a698-25934b7e5b45")
+		(uuid "1f2344ad-c1f6-4771-a6ce-9a93ee664bda")
 		(effects
 			(font
 				(size 1 1)
@@ -113,34 +69,40 @@
 		)
 	)
 	(pad "1" smd trapezoid
-		(at -3.75 -0.05)
-		(size 0.5 0.49)
+		(at -3.5 -0.05)
+		(size 1 0.49)
 		(layers "F.Cu")
-		(uuid "c5799597-566a-4cd5-92ff-1964c798f481")
+		(uuid "3ab13045-31fe-4ed0-b64c-1b186d477202")
 	)
-	(pad "2" smd trapezoid
-		(at -3.75 -0.95)
-		(size 0.5 0.5)
+	(pad "1" smd rect
+		(at -2.025 -0.5)
+		(size 1.95 1.4)
 		(layers "F.Cu")
-		(uuid "abfb3b90-c2ce-4810-b639-adbcdb8dbb47")
+		(uuid "d881c61c-b477-407e-ae1a-a94633ecfa2a")
 	)
-	(pad "2" smd trapezoid
-		(at 3.750412 -0.849999)
-		(size 0.5 0.699998)
-		(layers "F.Cu")
-		(uuid "a4e30f0e-641f-4181-a4c9-e1e25a7b2c92")
-	)
-	(pad "X" smd trapezoid
+	(pad "1" smd trapezoid
 		(at -0.9 -0.3)
 		(size 0.5 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "df588fef-033b-4f89-ad0e-56c35a993ce3")
+		(uuid "9d5f77cf-c392-4749-b980-5a57ff2157f6")
 	)
-	(pad "X" smd trapezoid
+	(pad "2" smd trapezoid
+		(at -3.5 -0.95)
+		(size 1 0.5)
+		(layers "F.Cu")
+		(uuid "3590d9c8-8a4f-4d9e-a2ac-a29c9c8309fd")
+	)
+	(pad "2" smd trapezoid
 		(at 2 -0.3)
 		(size 0.5 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f014c589-b7f8-48b4-a88b-5838d5854b36")
+		(uuid "5fa976a1-0b06-4656-a502-13bfa5204cbf")
+	)
+	(pad "2" smd trapezoid
+		(at 3 -0.85)
+		(size 2 0.7)
+		(layers "F.Cu")
+		(uuid "e7a76ca0-e8b3-46cc-a128-08cf50ab8639")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -149,15 +111,15 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "2842a360-07df-4256-a6cd-bfbd7492f1a4")
+		(uuid "89413794-8e98-4c02-b010-ba4bf48fbecc")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
+			(tracks allowed)
+			(vias allowed)
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
