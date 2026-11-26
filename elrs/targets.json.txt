@@ -1,0 +1,13 @@
+Add :
+"rx_2400":
+          {
+            "Lutjev2": {
+                "product_name": "Lutje v2 2400MHz RX",
+                "lua_name": "Lutjev2 2G4",
+                "layout_file": "Lutje v2.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.6.0",
+                "platform": "esp32-c3",
+                "firmware": "Unified_ESP32C3_2400_RX"
+            },
+
